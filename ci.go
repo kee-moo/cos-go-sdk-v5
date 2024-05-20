@@ -1784,6 +1784,7 @@ type FaceEffectOptions struct {
 	EyeEnlarging int    `url:"eyeEnlarging,omitempty"`
 	Gender       int    `url:"gender,omitempty"`
 	Age          int    `url:"age,omitempty"`
+	DetectUrl    string `url:"detect-url,omitempty"`	
 }
 
 type FaceEffectResult struct {
